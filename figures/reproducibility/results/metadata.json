@@ -1,0 +1,51 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0",
+  "pvlib": "0.16.1",
+  "xgboost": "3.4.1",
+  "best": {
+    "Daily XGB": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.03
+    },
+    "Expanded XGB": {
+      "n_estimators": 500,
+      "max_depth": 3,
+      "learning_rate": 0.03
+    },
+    "Expanded moments": {
+      "n_estimators": 200,
+      "max_depth": 7,
+      "learning_rate": 0.1
+    },
+    "Residual POA": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "learning_rate": 0.03
+    },
+    "Residual moments": {
+      "n_estimators": 500,
+      "max_depth": 3,
+      "learning_rate": 0.03
+    },
+    "Residual full": {
+      "n_estimators": 500,
+      "max_depth": 3,
+      "learning_rate": 0.03
+    }
+  },
+  "n_days": 1825,
+  "split_counts": [
+    1094,
+    366,
+    365
+  ],
+  "closure_thresholds": [
+    0.41533102229287466,
+    0.6759499895960162
+  ],
+  "max_reference_difference": 8.881784197001252e-16
+}
