@@ -46,7 +46,7 @@ Architecture development extends an earlier benchmark that already reported 2025
 
 ## Repository and release
 
-This package is hosted at https://github.com/ckaisermark/pv-bounded-residual-boosting. A permanent release DOI can be added after archival registration.
+This package is hosted at https://github.com/pv-emulation-lab/pv-bounded-residual-boosting. A permanent release DOI can be added after archival registration.
 
 The funding, competing-interest and author-contribution statements in `main.tex` should be confirmed by all authors before journal submission. Names and affiliations should also be checked by all authors.
 
